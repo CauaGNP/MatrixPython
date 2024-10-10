@@ -1,11 +1,12 @@
 matriz1 = [
-    [1, 2],
-    [3, 4]
+    [2, 3, 1],  
+    [4, 0, 5]   
 ]
 
 matriz2 = [
-    [2, 0],
-    [1, 3]
+    [1, 2],     
+    [3, 4],     
+    [5, 6]      
 ]
 
 def multiplyMatrix(matrix1, matrix2):
@@ -20,5 +21,5 @@ def multiplyMatrix(matrix1, matrix2):
 
 result = multiplyMatrix(matriz1, matriz2)
 
-for linha in result:
-    print(linha)
+for l in result:
+    print(l)
